@@ -21,33 +21,42 @@ h1 {
     font-size: 48px;
 }
 
+/* color change effect in h1 */
+
 #seo {
     color: #d9dcd6;
 }
+
+/* header-nav container */
 
 .header-nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    /* background-color: chartreuse; */        
 }
 
+/*header-nav list elements */
 
-
-.header-nav {
-    /* remove any bullet points from list */
-    list-style-type: none;
-}
-
-.header-nav li {
+ .header-nav-list li {
+    
+    list-style-type: upper-alpha;
     display: inline-block;
     margin-left: 25px;
-}
+    
+    
+} 
+
+/* all anchors */
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
+
+/* all paragraphs */
 
 p {
     font-size: 16px;
