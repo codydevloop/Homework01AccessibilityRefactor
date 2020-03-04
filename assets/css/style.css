@@ -102,7 +102,7 @@ p {
 
 /* one of the images floats right (online rep mgmt) */
 
-#float-right {
+#orm {
     float: right;
     margin-left: 25px;
 }
